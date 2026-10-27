@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23 01:58 UTC",
+  "generated": "2026-10-27 08:17 UTC",
   "upstream": "projectdiscovery/nuclei-templates",
   "templates": [
     {
@@ -76,6 +76,21 @@
       "submitted": "2026-10-08",
       "merged": "2026-10-22",
       "path": "templates/2026/2026-10-22/CVE-2026-85714.yaml"
+    },
+    {
+      "id": "CVE-2010-1428",
+      "name": "Red Hat JBoss - Web/JMX Console Access",
+      "author": "Jayachandran from Securin Labs (https://securin.io)",
+      "severity": "high",
+      "cvss": 7.5,
+      "cwe": "CWE-306",
+      "vendor": "redhat",
+      "product": "jboss_enterprise_application_platform",
+      "upstream_path": "http/cves/2010/CVE-2010-1428.yaml",
+      "pr": 17340,
+      "submitted": "2026-09-29",
+      "merged": "2026-10-25",
+      "path": "templates/2026/2026-10-25/CVE-2010-1428.yaml"
     }
   ],
   "pull_requests": [
@@ -178,9 +193,9 @@
     {
       "number": 17340,
       "title": "Add CVE-2010-1428 (Red Hat JBoss unauthenticated Web/JMX console access)",
-      "state": "open",
+      "state": "merged",
       "opened": "2026-09-29",
-      "closed": null,
+      "closed": "2026-10-25",
       "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17340"
     },
     {
@@ -222,6 +237,38 @@
       "opened": "2026-10-22",
       "closed": "2026-10-22",
       "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17487"
+    },
+    {
+      "number": 17587,
+      "title": "Add CVE-2023-54335 - eXtplorer <= 2.1.14 - Authentication Bypass",
+      "state": "open",
+      "opened": "2026-10-27",
+      "closed": null,
+      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17587"
+    },
+    {
+      "number": 17588,
+      "title": "Add CVE-2023-31719 - FUXA < 1.2.4 - Unauthenticated SQL Injection",
+      "state": "open",
+      "opened": "2026-10-27",
+      "closed": null,
+      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17588"
+    },
+    {
+      "number": 17589,
+      "title": "Add CVE-2026-24898 - OpenEMR < 8.0.0 - MedEx Callback Unauthenticated Token Disclosure",
+      "state": "open",
+      "opened": "2026-10-27",
+      "closed": null,
+      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17589"
+    },
+    {
+      "number": 17590,
+      "title": "Add CVE-2025-50201 - WeGIA < 3.4.2 - Unauthenticated OS Command Injection",
+      "state": "open",
+      "opened": "2026-10-27",
+      "closed": null,
+      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17590"
     }
   ]
 }
