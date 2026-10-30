@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30 06:18 UTC",
+  "generated": "2026-10-30 06:34 UTC",
   "upstream": "projectdiscovery/nuclei-templates",
   "templates": [
     {
@@ -148,78 +148,6 @@
       "url": "https://github.com/projectdiscovery/nuclei-templates/pull/16567"
     },
     {
-      "number": 17320,
-      "title": "Update CVE-2018-10933 (libssh auth bypass) \u2014 improved banner detection",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-09-28",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17320"
-    },
-    {
-      "number": 17321,
-      "title": "Add CVE-2020-2555 (Oracle Coherence T3 deserialization RCE) \u2014 active template",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-10-05",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17321"
-    },
-    {
-      "number": 17323,
-      "title": "Add CVE-2018-15708 (Nagios XI MagpieRSS argument injection) \u2014 active OOB template",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-09-29",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17323"
-    },
-    {
-      "number": 17324,
-      "title": "Add CVE-2000-0248 (Piranha GUI backdoor credentials) \u2014 active detection",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-09-29",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17324"
-    },
-    {
-      "number": 17325,
-      "title": "Add CVE-2009-3960 (Adobe BlazeDS AMFX XXE) \u2014 active file-read detection",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-09-29",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17325"
-    },
-    {
-      "number": 17326,
-      "title": "Add CVE-2010-0738 (JBoss JMX/Web Console verb-tampering auth bypass)",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-09-28",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17326"
-    },
-    {
-      "number": 17327,
-      "title": "Add CVE-2012-2311 (PHP-CGI argument injection RCE) \u2014 active detection",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-09-28",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17327"
-    },
-    {
-      "number": 17328,
-      "title": "Add CVE-2013-0625 (Adobe ColdFusion authentication bypass)",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-09-28",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17328"
-    },
-    {
-      "number": 17329,
-      "title": "Add CVE-2012-2311 (PHP-CGI argument injection RCE)",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-09-29",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17329"
-    },
-    {
       "number": 17330,
       "title": "Add CVE-2010-0738 (JBoss JMX/Web Console verb-tampering auth bypass)",
       "state": "merged",
@@ -228,44 +156,12 @@
       "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17330"
     },
     {
-      "number": 17331,
-      "title": "Add CVE-2013-0625 (Adobe ColdFusion Administrator authentication bypass)",
-      "state": "closed",
-      "opened": "2026-09-28",
-      "closed": "2026-10-05",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17331"
-    },
-    {
       "number": 17340,
       "title": "Add CVE-2010-1428 (Red Hat JBoss unauthenticated Web/JMX console access)",
       "state": "merged",
       "opened": "2026-09-29",
       "closed": "2026-10-25",
       "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17340"
-    },
-    {
-      "number": 17341,
-      "title": "Add CVE-2013-0629 (Adobe ColdFusion directory traversal - restricted directory access)",
-      "state": "closed",
-      "opened": "2026-09-29",
-      "closed": "2026-10-01",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17341"
-    },
-    {
-      "number": 17342,
-      "title": "Add CVE-2018-15710 (Nagios XI <= 5.5.6 Autodiscover OS command injection)",
-      "state": "closed",
-      "opened": "2026-09-29",
-      "closed": "2026-09-29",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17342"
-    },
-    {
-      "number": 17343,
-      "title": "Add CVE-2023-50164 (Apache Struts S2-066 path traversal file upload RCE)",
-      "state": "closed",
-      "opened": "2026-09-29",
-      "closed": "2026-09-29",
-      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17343"
     },
     {
       "number": 17383,

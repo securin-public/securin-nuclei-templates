@@ -1,68 +1,91 @@
-# Securin nuclei templates
+<p align="center">
+  <a href="https://www.securin.io">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/securin-logo-dark.png">
+      <img alt="Securin" src="assets/securin-logo-light.png" width="320">
+    </picture>
+  </a>
+</p>
 
-Templates authored by Securin Labs and merged into [`projectdiscovery/nuclei-templates`](https://github.com/projectdiscovery/nuclei-templates). Each file is an exact copy of the template on upstream `main`, stored under `templates/<year>/<merge-date>/`.
+<h1 align="center">Securin Nuclei Templates</h1>
 
-_Last updated: 2026-10-30 06:18 UTC_
+<p align="center">
+  Lab-validated <a href="https://github.com/projectdiscovery/nuclei">Nuclei</a> detection templates authored by <a href="https://www.securin.io">Securin</a> and merged into the official ProjectDiscovery template library.
+</p>
 
-## Summary
+<p align="center">
+  <a href="#templates"><img alt="templates merged" src="https://img.shields.io/badge/templates%20merged-9-7F30FF?style=flat-square"></a> <img alt="critical" src="https://img.shields.io/badge/critical-7-8B0000?style=flat-square"> <a href="#in-review"><img alt="in review" src="https://img.shields.io/badge/in%20review-1-9C66FF?style=flat-square"></a> <a href="https://github.com/projectdiscovery/nuclei-templates"><img alt="upstream" src="https://img.shields.io/badge/upstream-nuclei--templates-181717?style=flat-square"></a> <a href="https://www.securin.io"><img alt="website" src="https://img.shields.io/badge/website-securin.io-7F30FF?style=flat-square"></a>
+</p>
 
-| Metric | Count |
+---
+
+## About
+
+[Securin](https://www.securin.io) researches exploitable vulnerabilities and contributes detections back to the community through [`projectdiscovery/nuclei-templates`](https://github.com/projectdiscovery/nuclei-templates). Every template in this repository has been reviewed and accepted by the ProjectDiscovery maintainers, and favours active proof of exploitability (command output, retrieved file content, unauthenticated access to protected resources) over version banners.
+
+This repository is a curated record of those contributions. Each file is an exact copy of the template as it exists on upstream `main`, so it stays in step with maintainer edits and metadata refreshes.
+
+## Highlights
+
+| Metric | Value |
 |---|---|
-| Templates merged | 9 |
-| PRs merged | 8 |
-| PRs open | 1 |
-| PRs closed without merge | 13 |
-| Merge rate (merged / decided PRs) | 38% |
-
-## By severity
-
-| Severity | Templates |
-|---|---|
-| critical | 7 |
-| high | 2 |
-
-## By CVE year
-
-| CVE year | Templates |
-|---|---|
-| 2010 | 2 |
-| 2017 | 1 |
-| 2019 | 1 |
-| 2020 | 1 |
-| 2023 | 2 |
-| 2026 | 2 |
-
-## By merge month
-
-| Month | Templates |
-|---|---|
-| 2026-08 | 3 |
-| 2026-10 | 6 |
+| Templates merged upstream | **9** |
+| Critical / High severity | 7 / 2 |
+| CVE years covered | 2010–2026 |
+| Pull requests in review | 1 |
 
 ## Templates
 
-| Template | Name | Severity | CVSS | Merged | PR |
+| CVE | Title | Severity | CVSS | Merged | Upstream PR |
 |---|---|---|---|---|---|
-| [CVE-2023-54335](templates/2026/2026-10-29/CVE-2023-54335.yaml) | eXtplorer <= 2.1.14 - Authentication Bypass | critical | 9.8 | 2026-10-29 | [#17587](https://github.com/projectdiscovery/nuclei-templates/pull/17587) |
-| [CVE-2023-31719](templates/2026/2026-10-29/CVE-2023-31719.yaml) | FUXA <= 1.1.12 - Unauthenticated SQL Injection | critical | 9.8 | 2026-10-29 | [#17588](https://github.com/projectdiscovery/nuclei-templates/pull/17588) |
-| [CVE-2026-24898](templates/2026/2026-10-28/CVE-2026-24898.yaml) | OpenEMR < 8.0.0 - MedEx Callback Unauthenticated Token Disclosure | critical | 10 | 2026-10-28 | [#17589](https://github.com/projectdiscovery/nuclei-templates/pull/17589) |
-| [CVE-2010-1428](templates/2026/2026-10-25/CVE-2010-1428.yaml) | Red Hat JBoss - Web/JMX Console Access | high | 7.5 | 2026-10-25 | [#17340](https://github.com/projectdiscovery/nuclei-templates/pull/17340) |
-| [CVE-2026-85714](templates/2026/2026-10-22/CVE-2026-85714.yaml) | Stirling PDF <= 2.13.1 - H2 Database Import Remote Code Execution | critical | 9.1 | 2026-10-22 | [#17383](https://github.com/projectdiscovery/nuclei-templates/pull/17383) |
-| [CVE-2010-0738](templates/2026/2026-10-15/CVE-2010-0738.yaml) | JBoss JMX/Web Console - Authentication Bypass via HTTP Verb Tampering | critical | 9.8 | 2026-10-15 | [#17330](https://github.com/projectdiscovery/nuclei-templates/pull/17330) |
-| [CVE-2020-10221](templates/2026/2026-08-25/CVE-2020-10221.yaml) | rConfig <= 3.9.4 - Authenticated OS Command Injection | high | 8.8 | 2026-08-25 | [#16567](https://github.com/projectdiscovery/nuclei-templates/pull/16567) |
-| [CVE-2019-11043](templates/2026/2026-08-25/CVE-2019-11043.yaml) | PHP-FPM Path Info Buffer Underflow - Remote Code Execution | critical | 9.8 | 2026-08-25 | [#16567](https://github.com/projectdiscovery/nuclei-templates/pull/16567) |
-| [CVE-2017-7504](templates/2026/2026-08-25/CVE-2017-7504.yaml) | JBossMQ HTTP Invocation Layer (HTTPServerILServlet) - Unauthenticated Java Deserialization | critical | 9.8 | 2026-08-25 | [#16567](https://github.com/projectdiscovery/nuclei-templates/pull/16567) |
+| [**CVE-2023-54335**](templates/2026/2026-10-29/CVE-2023-54335.yaml) | eXtplorer <= 2.1.14 - Authentication Bypass | ![critical](https://img.shields.io/badge/-critical-8B0000?style=flat-square) | 9.8 | 2026-10-29 | [#17587](https://github.com/projectdiscovery/nuclei-templates/pull/17587) |
+| [**CVE-2023-31719**](templates/2026/2026-10-29/CVE-2023-31719.yaml) | FUXA <= 1.1.12 - Unauthenticated SQL Injection | ![critical](https://img.shields.io/badge/-critical-8B0000?style=flat-square) | 9.8 | 2026-10-29 | [#17588](https://github.com/projectdiscovery/nuclei-templates/pull/17588) |
+| [**CVE-2026-24898**](templates/2026/2026-10-28/CVE-2026-24898.yaml) | OpenEMR < 8.0.0 - MedEx Callback Unauthenticated Token Disclosure | ![critical](https://img.shields.io/badge/-critical-8B0000?style=flat-square) | 10 | 2026-10-28 | [#17589](https://github.com/projectdiscovery/nuclei-templates/pull/17589) |
+| [**CVE-2010-1428**](templates/2026/2026-10-25/CVE-2010-1428.yaml) | Red Hat JBoss - Web/JMX Console Access | ![high](https://img.shields.io/badge/-high-E05D44?style=flat-square) | 7.5 | 2026-10-25 | [#17340](https://github.com/projectdiscovery/nuclei-templates/pull/17340) |
+| [**CVE-2026-85714**](templates/2026/2026-10-22/CVE-2026-85714.yaml) | Stirling PDF <= 2.13.1 - H2 Database Import Remote Code Execution | ![critical](https://img.shields.io/badge/-critical-8B0000?style=flat-square) | 9.1 | 2026-10-22 | [#17383](https://github.com/projectdiscovery/nuclei-templates/pull/17383) |
+| [**CVE-2010-0738**](templates/2026/2026-10-15/CVE-2010-0738.yaml) | JBoss JMX/Web Console - Authentication Bypass via HTTP Verb Tampering | ![critical](https://img.shields.io/badge/-critical-8B0000?style=flat-square) | 9.8 | 2026-10-15 | [#17330](https://github.com/projectdiscovery/nuclei-templates/pull/17330) |
+| [**CVE-2020-10221**](templates/2026/2026-08-25/CVE-2020-10221.yaml) | rConfig <= 3.9.4 - Authenticated OS Command Injection | ![high](https://img.shields.io/badge/-high-E05D44?style=flat-square) | 8.8 | 2026-08-25 | [#16567](https://github.com/projectdiscovery/nuclei-templates/pull/16567) |
+| [**CVE-2019-11043**](templates/2026/2026-08-25/CVE-2019-11043.yaml) | PHP-FPM Path Info Buffer Underflow - Remote Code Execution | ![critical](https://img.shields.io/badge/-critical-8B0000?style=flat-square) | 9.8 | 2026-08-25 | [#16567](https://github.com/projectdiscovery/nuclei-templates/pull/16567) |
+| [**CVE-2017-7504**](templates/2026/2026-08-25/CVE-2017-7504.yaml) | JBossMQ HTTP Invocation Layer (HTTPServerILServlet) - Unauthenticated Java Deserialization | ![critical](https://img.shields.io/badge/-critical-8B0000?style=flat-square) | 9.8 | 2026-08-25 | [#16567](https://github.com/projectdiscovery/nuclei-templates/pull/16567) |
 
-## Open PRs
+## In review
 
-| PR | Title | Opened |
+Submitted upstream and awaiting maintainer review.
+
+| Pull request | Title | Submitted |
 |---|---|---|
-| [#17590](https://github.com/projectdiscovery/nuclei-templates/pull/17590) | Add CVE-2025-50201 - WeGIA < 3.4.2 - Unauthenticated OS Command Injection | 2026-10-27 |
+| [#17590](https://github.com/projectdiscovery/nuclei-templates/pull/17590) | CVE-2025-50201 - WeGIA < 3.4.2 - Unauthenticated OS Command Injection | 2026-10-27 |
 
-## Updating
+## Usage
+
+Install [Nuclei](https://github.com/projectdiscovery/nuclei) and run any template against a target you are **authorized** to test:
 
 ```sh
-GH_TOKEN=$(gh auth token -u ArjunSecurin) python3 scripts/update.py
+# single template
+nuclei -u https://target.example -t templates/2026/2026-10-28/CVE-2026-24898.yaml
+
+# every Securin template
+nuclei -l targets.txt -t templates/
 ```
 
-The script rebuilds `templates/`, `data/contributions.json` and this README from the GitHub API. Do not edit them by hand.
+The same templates ship with the official library, so `nuclei -update-templates` followed by `nuclei -id <CVE-ID>` works as well.
+
+## Repository layout
+
+```
+templates/<year>/<merge-date>/<CVE-ID>.yaml   exact copies from upstream main
+data/contributions.json                       machine-readable index
+scripts/update.py                             regenerates templates, data and this README
+```
+
+## Responsible use
+
+These templates are provided for defensive security, vulnerability management and authorized testing only. Do not scan systems without explicit permission from their owner.
+
+## License
+
+Templates are distributed under the [MIT License](LICENSE), as published in [`projectdiscovery/nuclei-templates`](https://github.com/projectdiscovery/nuclei-templates).
+
+---
+
+<p align="center"><sub>Maintained by <a href="https://www.securin.io">Securin</a> · Last synced 2026-10-30 06:34 UTC</sub></p>
