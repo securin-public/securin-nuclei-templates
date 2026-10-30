@@ -2,23 +2,23 @@
 
 Templates authored by Securin Labs and merged into [`projectdiscovery/nuclei-templates`](https://github.com/projectdiscovery/nuclei-templates). Each file is an exact copy of the template on upstream `main`, stored under `templates/<year>/<merge-date>/`.
 
-_Last updated: 2026-10-27 08:17 UTC_
+_Last updated: 2026-10-30 06:18 UTC_
 
 ## Summary
 
 | Metric | Count |
 |---|---|
-| Templates merged | 6 |
-| PRs merged | 5 |
-| PRs open | 4 |
+| Templates merged | 9 |
+| PRs merged | 8 |
+| PRs open | 1 |
 | PRs closed without merge | 13 |
-| Merge rate (merged / decided PRs) | 28% |
+| Merge rate (merged / decided PRs) | 38% |
 
 ## By severity
 
 | Severity | Templates |
 |---|---|
-| critical | 4 |
+| critical | 7 |
 | high | 2 |
 
 ## By CVE year
@@ -29,19 +29,23 @@ _Last updated: 2026-10-27 08:17 UTC_
 | 2017 | 1 |
 | 2019 | 1 |
 | 2020 | 1 |
-| 2026 | 1 |
+| 2023 | 2 |
+| 2026 | 2 |
 
 ## By merge month
 
 | Month | Templates |
 |---|---|
 | 2026-08 | 3 |
-| 2026-10 | 3 |
+| 2026-10 | 6 |
 
 ## Templates
 
 | Template | Name | Severity | CVSS | Merged | PR |
 |---|---|---|---|---|---|
+| [CVE-2023-54335](templates/2026/2026-10-29/CVE-2023-54335.yaml) | eXtplorer <= 2.1.14 - Authentication Bypass | critical | 9.8 | 2026-10-29 | [#17587](https://github.com/projectdiscovery/nuclei-templates/pull/17587) |
+| [CVE-2023-31719](templates/2026/2026-10-29/CVE-2023-31719.yaml) | FUXA <= 1.1.12 - Unauthenticated SQL Injection | critical | 9.8 | 2026-10-29 | [#17588](https://github.com/projectdiscovery/nuclei-templates/pull/17588) |
+| [CVE-2026-24898](templates/2026/2026-10-28/CVE-2026-24898.yaml) | OpenEMR < 8.0.0 - MedEx Callback Unauthenticated Token Disclosure | critical | 10 | 2026-10-28 | [#17589](https://github.com/projectdiscovery/nuclei-templates/pull/17589) |
 | [CVE-2010-1428](templates/2026/2026-10-25/CVE-2010-1428.yaml) | Red Hat JBoss - Web/JMX Console Access | high | 7.5 | 2026-10-25 | [#17340](https://github.com/projectdiscovery/nuclei-templates/pull/17340) |
 | [CVE-2026-85714](templates/2026/2026-10-22/CVE-2026-85714.yaml) | Stirling PDF <= 2.13.1 - H2 Database Import Remote Code Execution | critical | 9.1 | 2026-10-22 | [#17383](https://github.com/projectdiscovery/nuclei-templates/pull/17383) |
 | [CVE-2010-0738](templates/2026/2026-10-15/CVE-2010-0738.yaml) | JBoss JMX/Web Console - Authentication Bypass via HTTP Verb Tampering | critical | 9.8 | 2026-10-15 | [#17330](https://github.com/projectdiscovery/nuclei-templates/pull/17330) |
@@ -53,9 +57,6 @@ _Last updated: 2026-10-27 08:17 UTC_
 
 | PR | Title | Opened |
 |---|---|---|
-| [#17587](https://github.com/projectdiscovery/nuclei-templates/pull/17587) | Add CVE-2023-54335 - eXtplorer <= 2.1.14 - Authentication Bypass | 2026-10-27 |
-| [#17588](https://github.com/projectdiscovery/nuclei-templates/pull/17588) | Add CVE-2023-31719 - FUXA < 1.2.4 - Unauthenticated SQL Injection | 2026-10-27 |
-| [#17589](https://github.com/projectdiscovery/nuclei-templates/pull/17589) | Add CVE-2026-24898 - OpenEMR < 8.0.0 - MedEx Callback Unauthenticated Token Disclosure | 2026-10-27 |
 | [#17590](https://github.com/projectdiscovery/nuclei-templates/pull/17590) | Add CVE-2025-50201 - WeGIA < 3.4.2 - Unauthenticated OS Command Injection | 2026-10-27 |
 
 ## Updating

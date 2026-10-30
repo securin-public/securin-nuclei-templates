@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27 08:17 UTC",
+  "generated": "2026-10-30 06:18 UTC",
   "upstream": "projectdiscovery/nuclei-templates",
   "templates": [
     {
@@ -91,6 +91,51 @@
       "submitted": "2026-09-29",
       "merged": "2026-10-25",
       "path": "templates/2026/2026-10-25/CVE-2010-1428.yaml"
+    },
+    {
+      "id": "CVE-2026-24898",
+      "name": "OpenEMR < 8.0.0 - MedEx Callback Unauthenticated Token Disclosure",
+      "author": "Securin",
+      "severity": "critical",
+      "cvss": 10,
+      "cwe": "CWE-200,CWE-306",
+      "vendor": "open-emr",
+      "product": "openemr",
+      "upstream_path": "http/cves/2026/CVE-2026-24898.yaml",
+      "pr": 17589,
+      "submitted": "2026-10-27",
+      "merged": "2026-10-28",
+      "path": "templates/2026/2026-10-28/CVE-2026-24898.yaml"
+    },
+    {
+      "id": "CVE-2023-31719",
+      "name": "FUXA <= 1.1.12 - Unauthenticated SQL Injection",
+      "author": "Securin",
+      "severity": "critical",
+      "cvss": 9.8,
+      "cwe": "CWE-89",
+      "vendor": "frangoteam",
+      "product": "fuxa",
+      "upstream_path": "http/cves/2023/CVE-2023-31719.yaml",
+      "pr": 17588,
+      "submitted": "2026-10-27",
+      "merged": "2026-10-29",
+      "path": "templates/2026/2026-10-29/CVE-2023-31719.yaml"
+    },
+    {
+      "id": "CVE-2023-54335",
+      "name": "eXtplorer <= 2.1.14 - Authentication Bypass",
+      "author": "Securin",
+      "severity": "critical",
+      "cvss": 9.8,
+      "cwe": "CWE-287",
+      "vendor": "extplorer",
+      "product": "extplorer",
+      "upstream_path": "http/cves/2023/CVE-2023-54335.yaml",
+      "pr": 17587,
+      "submitted": "2026-10-27",
+      "merged": "2026-10-29",
+      "path": "templates/2026/2026-10-29/CVE-2023-54335.yaml"
     }
   ],
   "pull_requests": [
@@ -241,25 +286,25 @@
     {
       "number": 17587,
       "title": "Add CVE-2023-54335 - eXtplorer <= 2.1.14 - Authentication Bypass",
-      "state": "open",
+      "state": "merged",
       "opened": "2026-10-27",
-      "closed": null,
+      "closed": "2026-10-29",
       "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17587"
     },
     {
       "number": 17588,
       "title": "Add CVE-2023-31719 - FUXA < 1.2.4 - Unauthenticated SQL Injection",
-      "state": "open",
+      "state": "merged",
       "opened": "2026-10-27",
-      "closed": null,
+      "closed": "2026-10-29",
       "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17588"
     },
     {
       "number": 17589,
       "title": "Add CVE-2026-24898 - OpenEMR < 8.0.0 - MedEx Callback Unauthenticated Token Disclosure",
-      "state": "open",
+      "state": "merged",
       "opened": "2026-10-27",
-      "closed": null,
+      "closed": "2026-10-28",
       "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17589"
     },
     {
