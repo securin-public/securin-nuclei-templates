@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="#templates"><img alt="templates merged" src="https://img.shields.io/badge/templates%20merged-9-7F30FF?style=flat-square"></a> <img alt="critical" src="https://img.shields.io/badge/critical-7-8B0000?style=flat-square"> <a href="#in-review"><img alt="in review" src="https://img.shields.io/badge/in%20review-1-9C66FF?style=flat-square"></a> <a href="https://github.com/projectdiscovery/nuclei-templates"><img alt="upstream" src="https://img.shields.io/badge/upstream-nuclei--templates-181717?style=flat-square"></a> <a href="https://www.securin.io"><img alt="website" src="https://img.shields.io/badge/website-securin.io-7F30FF?style=flat-square"></a>
+  <a href="#templates"><img alt="templates merged" src="https://img.shields.io/badge/templates%20merged-9-7F30FF?style=flat-square"></a> <img alt="critical" src="https://img.shields.io/badge/critical-7-8B0000?style=flat-square"> <a href="#in-review"><img alt="in review" src="https://img.shields.io/badge/in%20review-3-9C66FF?style=flat-square"></a> <a href="https://github.com/projectdiscovery/nuclei-templates"><img alt="upstream" src="https://img.shields.io/badge/upstream-nuclei--templates-181717?style=flat-square"></a> <a href="https://www.securin.io"><img alt="website" src="https://img.shields.io/badge/website-securin.io-7F30FF?style=flat-square"></a>
 </p>
 
 ---
@@ -32,7 +32,7 @@ This repository is a curated record of those contributions. Each file is an exac
 | Templates merged upstream | **9** |
 | Critical / High severity | 7 / 2 |
 | CVE years covered | 2010–2026 |
-| Pull requests in review | 1 |
+| Pull requests in review | 3 |
 
 ## Templates
 
@@ -55,6 +55,8 @@ Submitted upstream and awaiting maintainer review.
 | Pull request | Title | Submitted |
 |---|---|---|
 | [#17590](https://github.com/projectdiscovery/nuclei-templates/pull/17590) | CVE-2025-50201 - WeGIA < 3.4.2 - Unauthenticated OS Command Injection | 2026-10-27 |
+| [#17607](https://github.com/projectdiscovery/nuclei-templates/pull/17607) | CVE-2019-1003005 - Jenkins Script Security Plugin <=1.50 - Sandbox Bypass via AST Transforms | 2026-10-30 |
+| [#17782](https://github.com/projectdiscovery/nuclei-templates/pull/17782) | CVE-2026-48356 - Adobe Commerce/Magento <= 2.4.8-p5 - Unauthenticated Arbitrary File Upload | 2026-11-12 |
 
 ## Usage
 
@@ -88,4 +90,4 @@ Templates are distributed under the [MIT License](LICENSE), as published in [`pr
 
 ---
 
-<p align="center"><sub>Maintained by <a href="https://www.securin.io">Securin</a> · Last synced 2026-10-30 06:34 UTC</sub></p>
+<p align="center"><sub>Maintained by <a href="https://www.securin.io">Securin</a> · Last synced 2026-11-12 05:27 UTC</sub></p>

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30 06:34 UTC",
+  "generated": "2026-11-12 05:27 UTC",
   "upstream": "projectdiscovery/nuclei-templates",
   "templates": [
     {
@@ -210,6 +210,22 @@
       "opened": "2026-10-27",
       "closed": null,
       "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17590"
+    },
+    {
+      "number": 17607,
+      "title": "Add CVE-2019-1003005 - Jenkins Script Security Plugin <=1.50 - Sandbox Bypass via AST Transforms",
+      "state": "open",
+      "opened": "2026-10-30",
+      "closed": null,
+      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17607"
+    },
+    {
+      "number": 17782,
+      "title": "Add CVE-2026-48356 - Adobe Commerce/Magento <= 2.4.8-p5 - Unauthenticated Arbitrary File Upload",
+      "state": "open",
+      "opened": "2026-11-12",
+      "closed": null,
+      "url": "https://github.com/projectdiscovery/nuclei-templates/pull/17782"
     }
   ]
 }
